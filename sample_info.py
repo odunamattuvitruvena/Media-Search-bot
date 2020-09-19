@@ -1,25 +1,25 @@
 # Bot information
 SESSION ='Media_search'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
-BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+API_ID = 1760875
+API_HASH = '1cf39a758fd1abd6744561563f158ff3'
+BOT_TOKEN = '1349753251:AAGXbNwAHHcdS6V9svmBwQtompGmTYPE3V4'
 
 # Bot settings
 MAX_RESULTS = 10
 CACHE_TIME = 300
 
 # Admins & Channels
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [1004538768, 960156861]
+CHANNELS = [-1001376639526, 'TM_Moviez']
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://TMAdminz:TMAdmin@tm-moviez.vscec.mongodb.net/<dbname>?retryWrites=true&w=majority"
 DATABASE_NAME = 'Telegram'
-COLLECTION_NAME ='channel_files' # If you going to use same database, then use different collection name for each bot
+COLLECTION_NAME ='TM_Moviez-files' # If you going to use same database, then use different collection name for each bot
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Media Searching Bot for This Channel - @TM_MoviezBot\n Created by this <a href='https://telegram.dog/TM_Adminz'>Person</a>**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
